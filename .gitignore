@@ -1,0 +1,10 @@
+.venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.DS_Store
+code files/onehot_drug.pkl
+code files/adr_meta_model.pkl
+code files/merged_data.csv
+drugsComTrain_raw.csv
