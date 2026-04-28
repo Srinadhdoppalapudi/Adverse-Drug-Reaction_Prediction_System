@@ -1,7 +1,3 @@
-# Adverse-Drug-Reaction_Prediction_System
-
-# Adverse-Drug-Reaction_Prediction_System
-
 # 🏥 Adverse Drug Reaction (ADR) Prediction System
 
 An AI-powered system that predicts potential adverse drug reactions (side effects) based on a selected **drug** and **clinical indication** using **Graph Neural Networks (RGCN)** and Machine Learning techniques.
