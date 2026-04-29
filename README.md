@@ -1,10 +1,10 @@
-# 🏥 Adverse Drug Reaction (ADR) Prediction System
+# Adverse Drug Reaction (ADR) Prediction System
 
 An AI-powered system that predicts potential adverse drug reactions (side effects) based on a selected **drug** and **clinical indication** using **Graph Neural Networks (RGCN)** and Machine Learning techniques.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 Adverse Drug Reactions (ADRs) can be harmful and sometimes life-threatening. This project aims to:
 
@@ -14,23 +14,23 @@ Adverse Drug Reactions (ADRs) can be harmful and sometimes life-threatening. Thi
 
 The system was developed using two approaches:
 
-- 📊 **Stacking Machine Learning Model** (XGBoost, LightGBM, CatBoost + Meta Model) — used for experimentation and performance comparison  
-- 🌐 **Graph Neural Network (RGCN)** — used as the **final deployed model** for prediction  
+-  **Stacking Machine Learning Model** (XGBoost, LightGBM, CatBoost + Meta Model) — used for experimentation and performance comparison  
+-  **Graph Neural Network (RGCN)** — used as the **final deployed model** for prediction  
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-- 🔍 Select **Drug & Indication**
-- ⚠️ Predict **Side Effects**
-- 📈 View **Probability & Confidence**
-- 📊 Interactive Visualizations
-- 📋 Detailed Prediction Table
-- 📥 Export results as CSV
+-  Select **Drug & Indication**
+-  Predict **Side Effects**
+-  View **Probability & Confidence**
+-  Interactive Visualizations
+-  Detailed Prediction Table
+-  Export results as CSV
 
 ---
 
-## 🖥️ Tech Stack
+## Tech Stack
 
 - **Frontend/UI**: Streamlit  
 - **Backend**: Python  
@@ -49,7 +49,7 @@ The system was developed using two approaches:
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The project uses multiple datasets:
 
@@ -67,7 +67,7 @@ This unified dataset is used for both machine learning and graph-based modeling.
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 ### 🔹 Step 1: User Input
 - Select Drug  
@@ -132,7 +132,7 @@ For each side effect:
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 The models were evaluated using:
 
@@ -156,7 +156,7 @@ The models were evaluated using:
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 
 - Bar Chart → Top side effects  
 - Scatter Plot → Probability vs Confidence  
@@ -166,7 +166,7 @@ These visualizations help users interpret predictions effectively.
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Trained on subset (~500K rows)  
 - No patient-specific factors (age, dosage, medical history)  
@@ -176,7 +176,7 @@ These visualizations help users interpret predictions effectively.
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Train on full dataset with higher computational power  
 - Add drug–drug interaction modeling  
@@ -187,7 +187,7 @@ These visualizations help users interpret predictions effectively.
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 - Graph-based models effectively capture relationships between entities  
 - Ensemble models provide stable and balanced predictions  
@@ -196,7 +196,7 @@ These visualizations help users interpret predictions effectively.
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 
 This project demonstrates how AI and graph-based learning can be used to predict adverse drug reactions by capturing relationships between drugs, indications, and side effects.
 
@@ -204,7 +204,7 @@ The RGCN model serves as the final deployed model, while stacking models provide
 
 ---
 
-## 📸 Demo
+## Demo
 
 👉 Streamlit App:  
 https://adverse-drug-reactionpredictionsystem-zcapb6bza78xtaqriz96nv.streamlit.app/
